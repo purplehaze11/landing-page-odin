@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generic Landing Page</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
@@ -13,18 +14,22 @@
         <nav>
             <p id="page-title">PurpleCode</p>
             <ul>
-                <li><a href="#info">info</a></li>
-                <li><a href="#feature">feature</a></li>
-                <li><a href="#pricing">pricing</a></li>
+                <li class="nav-list"><a href="#info">info</a></li>
+                <li class="nav-list"><a href="#feature">feature</a></li>
+                <li class="nav-list"><a href="#pricing">pricing</a></li>
             </ul>
         </nav>
+        <section id="info">
+            <div id="info-text">
+                <h1>PurpleCode</h1>
+                <p>The best programming learning platform you could ever found of! I guess? Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. In eius aut, assumenda iste aspernatur inventore nulla deserunt
+                    temporibus.</p>
+            </div>
+            <img id="info-img" src="img/pexels-christina-morillo-1181675.jpg" alt="coding image">
+        </section>
     </header>
     <main>
-        <section id="info">
-            <h1>PurpleCode</h1>
-            <p>The best programming learning platform you could ever found of! I guess?</p>
-            <img src="img/pexels-christina-morillo-1181675.jpg" alt="coding image">
-        </section>
         <section id="feature">
             <h2>Feature of our course:</h2>
             <section id="feature-square">
@@ -51,16 +56,31 @@
             <h2>The price of our course</h2>
             <section id="pricing-square">
                 <div>
-                    <h3></h3>
+                    <h3>A Package</h3>
+                    <span>$500</span>
+                    <ul>
+                        <li>Twice a week learning by zoom</li>
+                        <li>1 on 1 mentoring everyday</li>
+                        <li>Merchandise</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3></h3>
+                    <h3>B Package</h3>
+                    <span>$200</span>
+                    <ul>
+                        <li>Once a week learning by zoom</li>
+                        <li>1 on 1 mentoring every weekend</li>
+                        <li>Merchandise</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3></h3>
-                </div>
-                <div>
-                    <h3></h3>
+                    <h3>C Package</h3>
+                    <span>$50</span>
+                    <ul>
+                        <li>Learning by watching video</li>
+                        <li>Group mentoring</li>
+                        <li>Merchandise</li>
+                    </ul>
                 </div>
             </section>
         </section>
